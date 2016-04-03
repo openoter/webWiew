@@ -19,8 +19,9 @@ ProgressBar的使用步骤：
    ![](http://7xskyl.com1.z0.glb.clouddn.com/webview_content.png)
 
 使用：
-   
+
     1. 使用`loadUrl()`加载资源
+    ![](http://7xskyl.com1.z0.glb.clouddn.com/android_loadWebView.png)
 ```java
  private void init() {
     //找到元素
@@ -35,7 +36,7 @@ ProgressBar的使用步骤：
      
     
     2. 添加网络访问的权限：
-  
+  ![](http://7xskyl.com1.z0.glb.clouddn.com/android_permission.png)
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
@@ -65,7 +66,7 @@ WebSettings settings = webView.getSettings();
 settings.setJavaScriptEnabled(true);
 ```
     5. 修改`返回`键
-    
+![](http://7xskyl.com1.z0.glb.clouddn.com/android_backAnd.png)
 ```java
 @Override
 public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -83,6 +84,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 }
 ```
     6. 判断页面的加载过程
+![](http://7xskyl.com1.z0.glb.clouddn.com/android_webProgress.png)
 ```java
 //判断页面的加载过程
 webView.setWebChromeClient(new WebChromeClient(){
@@ -130,6 +132,7 @@ webView.setWebChromeClient(new WebChromeClient(){
 });
 ```
     7. WebView使用缓存
+![](http://7xskyl.com1.z0.glb.clouddn.com/android_webViewCache.png)
 ```java
 //设置WebView优先使用缓存加载
 WebSettings settings = webView.getSettings();
