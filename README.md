@@ -1,8 +1,5 @@
 # Android高级控件
 
-标签（空格分隔）： 未分类 ProgressBar
-
----
 
 ### 1. ProgressBar（进度条）
 ProgressBar的使用步骤：
@@ -22,6 +19,7 @@ ProgressBar的使用步骤：
    ![](http://7xskyl.com1.z0.glb.clouddn.com/webview_content.png)
 
 使用：
+   
     1. 使用`loadUrl()`加载资源
 ```java
  private void init() {
