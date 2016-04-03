@@ -21,7 +21,8 @@ ProgressBar的使用步骤：
 使用：
 
     1. 使用`loadUrl()`加载资源
-    ![](http://7xskyl.com1.z0.glb.clouddn.com/android_loadWebView.png)
+    
+![](http://7xskyl.com1.z0.glb.clouddn.com/android_loadWebView.png)
 ```java
  private void init() {
     //找到元素
